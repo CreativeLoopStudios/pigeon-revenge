@@ -11,6 +11,7 @@
     <sprite>sprites\spr_Street</sprite>
     <sprite>sprites\spr_Explosion</sprite>
     <sprite>sprites\spr_Citizen</sprite>
+    <sprite>sprites\spr_Citizen2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_Water</background>
@@ -22,6 +23,7 @@
     <object>objects\obj_obstaculo</object>
     <object>objects\obj_Explosion</object>
     <object>objects\obj_Citizen</object>
+    <object>objects\obj_Citizen2</object>
     <object>objects\obj_Score</object>
   </objects>
   <rooms name="rooms">
@@ -31,7 +33,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\renna\AppData\Local\GameMaker-Studio\tutorials\Scrolling_Shooter_Part1\</TutorialName>
     <TutorialPage>9</TutorialPage>
   </TutorialState>

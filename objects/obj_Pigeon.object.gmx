@@ -48,7 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = x - 5
+            <string>image_speed = 0.5
+x = x - 5
 </string>
           </argument>
         </arguments>

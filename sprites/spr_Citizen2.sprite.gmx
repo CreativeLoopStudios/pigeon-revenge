@@ -20,8 +20,8 @@
   <width>40</width>
   <height>38</height>
   <frames>
-    <frame index="0">images\spr_Citizen_0.png</frame>
-    <frame index="1">images\spr_Citizen_1.png</frame>
-    <frame index="2">images\spr_Citizen_2.png</frame>
+    <frame index="0">images\spr_Citizen2_0.png</frame>
+    <frame index="1">images\spr_Citizen2_1.png</frame>
+    <frame index="2">images\spr_Citizen2_2.png</frame>
   </frames>
 </sprite>
