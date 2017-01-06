@@ -50,7 +50,7 @@
             <kind>1</kind>
             <string>//mover rua para o topo
 if(y &gt;= room_height){
-    action_move_to(x,-30);
+    action_move_to(x,-100);
 }
 
 </string>

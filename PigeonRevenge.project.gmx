@@ -17,6 +17,12 @@
     <background>background\bck_Water</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Citizen">
+      <script>scripts\sct_Moviment.gml</script>
+      <script>scripts\sct_CreateState.gml</script>
+    </scripts>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_Street</object>
     <object>objects\obj_Pigeon</object>
@@ -35,6 +41,6 @@
   <TutorialState>
     <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\renna\AppData\Local\GameMaker-Studio\tutorials\Scrolling_Shooter_Part1\</TutorialName>
-    <TutorialPage>9</TutorialPage>
+    <TutorialPage>6</TutorialPage>
   </TutorialState>
 </assets>
