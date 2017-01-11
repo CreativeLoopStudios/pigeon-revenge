@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>sct_CreateState</script>
+            <script>sct_Citizen_CreateState</script>
           </argument>
           <argument>
             <kind>0</kind>
@@ -67,7 +67,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>sct_Moviment</script>
+            <script>sct_Citizen_Moviment</script>
           </argument>
           <argument>
             <kind>0</kind>
