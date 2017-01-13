@@ -52,12 +52,6 @@
   </views>
   <instances>
     <instance objName="obj_Pigeon" x="448" y="576" name="inst_EB30DBF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen" x="256" y="160" name="inst_DD566C55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen" x="288" y="96" name="inst_40A9FE59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen" x="704" y="416" name="inst_2216BDC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen" x="704" y="160" name="inst_9A4FD7EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen" x="256" y="352" name="inst_838C5852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen" x="288" y="384" name="inst_F68A0251" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Score" x="32" y="32" name="inst_A10D4489" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TrafficPole" x="256" y="224" name="inst_A2CDAF86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TrafficPole" x="288" y="224" name="inst_1F033931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -79,12 +73,6 @@
     <instance objName="obj_TrafficPole" x="640" y="128" name="inst_39B77088" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TrafficPole" x="736" y="384" name="inst_B6E32800" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TrafficPole" x="608" y="128" name="inst_1F5650BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen" x="736" y="96" name="inst_A3D1F738" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen2" x="704" y="288" name="inst_ED8B6B1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen2" x="736" y="224" name="inst_93FC921F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen2" x="736" y="512" name="inst_1F70BB43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen2" x="704" y="640" name="inst_3C61DA9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Citizen2" x="288" y="640" name="inst_F6D294F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="512" y="64" name="inst_5202C433" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="416" y="352" name="inst_7F4844E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="608" y="192" name="inst_578A4453" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -92,6 +80,7 @@
     <instance objName="obj_TrafficPole" x="480" y="192" name="inst_CF411EE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TrafficPole" x="480" y="64" name="inst_B0E07EF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TrafficPole" x="480" y="416" name="inst_D0653845" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Creator" x="64" y="32" name="inst_7DC27588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

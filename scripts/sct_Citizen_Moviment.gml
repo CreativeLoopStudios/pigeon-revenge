@@ -1,7 +1,17 @@
 //obter posicao da rua em relação a pessoa
 //var streetInstancePosition;
 //streetInstancePosition = instance_place(x, y, obj_street);
+y= y+5
+if(y >= room_height){
+    instance_destroy();
+}
 
+if(y < -30){
+    instance_destroy();
+}
+
+
+/*
 var horizontalSideToGenerate = random_range(0,2)
 var verticalSideToGenerate = random_range(0,2)
 
@@ -39,5 +49,5 @@ if(y >= room_height){
         action_move_to(horizontalMove,verticalMove)
     }
     
-}
+}*/
 
