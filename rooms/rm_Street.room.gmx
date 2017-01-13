@@ -32,7 +32,7 @@
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bck_Water" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="4" stretch="0"/>
-    <background visible="-1" foreground="0" name="bck_Street" x="252" y="0" htiled="0" vtiled="-1" hspeed="0" vspeed="4" stretch="0"/>
+    <background visible="-1" foreground="0" name="bck_Street" x="256" y="0" htiled="0" vtiled="-1" hspeed="0" vspeed="4" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -85,10 +85,10 @@
     <instance objName="obj_Citizen2" x="736" y="512" name="inst_1F70BB43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Citizen2" x="704" y="640" name="inst_3C61DA9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Citizen2" x="288" y="640" name="inst_F6D294F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_car" x="512" y="32" name="inst_5202C433" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_car" x="512" y="64" name="inst_5202C433" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="416" y="352" name="inst_7F4844E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="608" y="192" name="inst_578A4453" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_car" x="352" y="160" name="inst_0C13A3A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_car" x="320" y="160" name="inst_0C13A3A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TrafficPole" x="480" y="192" name="inst_CF411EE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TrafficPole" x="480" y="64" name="inst_B0E07EF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TrafficPole" x="480" y="416" name="inst_D0653845" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
