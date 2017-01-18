@@ -7,12 +7,14 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_Pigeon</sprite>
-    <sprite>sprites\spr_TrafficPole</sprite>
+    <sprite>sprites\spr_TrafficLight</sprite>
     <sprite>sprites\spr_Street</sprite>
     <sprite>sprites\spr_Explosion</sprite>
     <sprite>sprites\spr_Citizen</sprite>
     <sprite>sprites\spr_Citizen2</sprite>
     <sprite>sprites\spr_car1</sprite>
+    <sprite>sprites\spr_Builder</sprite>
+    <sprite>sprites\spr_Outdoor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_Water</background>
@@ -33,13 +35,23 @@
   <objects name="objects">
     <object>objects\obj_Street</object>
     <object>objects\obj_Pigeon</object>
-    <object>objects\obj_TrafficPole</object>
     <object>objects\obj_Explosion</object>
-    <object>objects\obj_Citizen</object>
-    <object>objects\obj_Citizen2</object>
     <object>objects\obj_Score</object>
-    <object>objects\obj_car</object>
     <object>objects\obj_Creator</object>
+    <objects name="StreetSet">
+      <objects name="Solids">
+        <object>objects\obj_Outdoor</object>
+        <object>objects\obj_TrafficLight</object>
+      </objects>
+      <objects name="Decorative">
+        <object>objects\obj_Builder</object>
+      </objects>
+      <objects name="EarnPoints">
+        <object>objects\obj_Citizen2</object>
+        <object>objects\obj_car</object>
+        <object>objects\obj_Citizen</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Street</room>
