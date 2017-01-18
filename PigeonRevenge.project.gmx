@@ -36,8 +36,6 @@
     <object>objects\obj_Street</object>
     <object>objects\obj_Pigeon</object>
     <object>objects\obj_Explosion</object>
-    <object>objects\obj_Score</object>
-    <object>objects\obj_Creator</object>
     <objects name="StreetSet">
       <objects name="Solids">
         <object>objects\obj_Outdoor</object>
@@ -51,6 +49,11 @@
         <object>objects\obj_car</object>
         <object>objects\obj_Citizen</object>
       </objects>
+    </objects>
+    <objects name="Auxiliars">
+      <object>objects\obj_Score</object>
+      <object>objects\obj_Health</object>
+      <object>objects\obj_Creator</object>
     </objects>
   </objects>
   <rooms name="rooms">

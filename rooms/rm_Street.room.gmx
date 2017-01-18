@@ -80,6 +80,7 @@
     <instance objName="obj_Outdoor" x="288" y="160" name="inst_DADCC47E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Outdoor" x="288" y="32" name="inst_40C7B7A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Outdoor" x="288" y="704" name="inst_A3602AC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Health" x="96" y="32" name="inst_44E41347" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
