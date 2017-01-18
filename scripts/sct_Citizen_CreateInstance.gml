@@ -9,9 +9,9 @@ if instance_number(obj_Citizen) < 30 {
     
     //escolhe qual lado horizontal será gerado
     if(horizontalSideToGenerate < 1){
-        horizontalGeneratePoint = random_range(265,300)
+        horizontalGeneratePoint = random_range(75,90)
     }else{
-        horizontalGeneratePoint = random_range(735,770)
+        horizontalGeneratePoint = random_range(525,540)
     }
     //escolhe qual lado vertical será gerado
     if(verticalSideToGenerate < 1){
@@ -24,22 +24,18 @@ if instance_number(obj_Citizen) < 30 {
     
     
     with(instance_create(horizontalGeneratePoint, verticalGeneratePoint, obj_Citizen)){
-        //Definindo movimentação do cidadão criado
+    //Definindo movimentação do cidadão criado
         //movimentos dos cidadãos durante a descida da tela
         if(verticalSideToGenerate < 1){
             var horizontalMove = x
             var verticalMove = room_height
-            //var verticalMove = random_range(instanceCitizen.y,instanceCitizen.y+room_height)
-            move_towards_point( horizontalMove, verticalMove, 5 )
-            //action_move_to(horizontalMove,verticalMove)
-         //movimentos dos cidadãos durante a subida da tela
+            move_towards_point( horizontalMove, verticalMove, 6 )
             image_angle = angleInstance
+        //movimentos dos cidadãos durante a subida da tela
         }else{
             var horizontalMove = x
             var verticalMove = 0
-            //var verticalMove = random_range(instanceCitizen.y,instanceCitizen.y-room_height)
-            move_towards_point( horizontalMove, verticalMove, 5 )
-            //action_move_to(horizontalMove,verticalMove)
+            move_towards_point( horizontalMove, verticalMove, 3 )
             image_angle = angleInstance
         }
     }
