@@ -12,7 +12,7 @@
     <sprite>sprites\spr_Explosion</sprite>
     <sprite>sprites\spr_Citizen</sprite>
     <sprite>sprites\spr_Citizen2</sprite>
-    <sprite>sprites\spr_car1</sprite>
+    <sprite>sprites\spr_Car1</sprite>
     <sprite>sprites\spr_Builder</sprite>
     <sprite>sprites\spr_Outdoor</sprite>
   </sprites>
@@ -30,6 +30,7 @@
     <scripts name="Car">
       <script>scripts\spt_Car_Moviment.gml</script>
       <script>scripts\spt_Car_CreateState.gml</script>
+      <script>scripts\sct_Car_CreateInstance.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -46,7 +47,7 @@
       </objects>
       <objects name="EarnPoints">
         <object>objects\obj_Citizen2</object>
-        <object>objects\obj_car</object>
+        <object>objects\obj_Car1</object>
         <object>objects\obj_Citizen</object>
       </objects>
     </objects>

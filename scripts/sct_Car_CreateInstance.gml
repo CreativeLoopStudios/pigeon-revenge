@@ -14,17 +14,19 @@ if instance_number(obj_Car1) <= 5 /*|| instance_number(obj_Citizen2) < 15*/{
         angleInstance = -180
         
         if horizontalSideToGenerate < 1{
-         horizontalGeneratePoint = 210
+            horizontalGeneratePoint = 190
         }else{
-            horizontalGeneratePoint = 250
+            horizontalGeneratePoint = 270
         }
-        
-        //random_range(175,224)
     }else{
         verticalGeneratePoint = room_height + 30
         angleInstance = 0 // Gira o sprite 180 graus
-        horizontalGeneratePoint = 345
-        //random_range(352,416)
+        
+        if horizontalSideToGenerate < 1{
+            horizontalGeneratePoint = 360
+        }else{
+            horizontalGeneratePoint = 440
+        }
     }
     
     //define o objeto que será criado
