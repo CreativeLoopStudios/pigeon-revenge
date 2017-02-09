@@ -57,11 +57,11 @@ if(y &gt;= room_height){
 
 
 //Get the instance ID of the wall being touched (if any)
-var touch_wall = instance_place(x,y,obj_Pigeon);
+var pigeonInstance = instance_place(x,y,obj_Pigeon);
 
 //If there is a wall being touched
-if(touch_wall != noone) {
-    if(touch_wall.depth == depth) {
+if(pigeonInstance != noone) {
+    if(pigeonInstance.depth &lt;= depth) {
         instance_create(x, y, obj_Explosion);
     }
 }
