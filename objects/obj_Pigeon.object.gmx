@@ -142,58 +142,41 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>if (self.isGoingToDown) {
-    if(image_xscale &gt;= 0.9){
-        script_execute(scale_ease(self,1,1,0.7,0.3,30));
-    }
-    if(image_xscale &gt;= 0.7 &amp;&amp; image_xscale &lt; 0.9){
-        
-        if(image_xscale &gt;= 0.7 &amp;&amp; image_xscale &lt;= 0.73){
-            self.isGoingToDown = false;
-            self.isGoingToUp = true;
-            depth = -19
-        }else{
-            script_execute(scale_ease(self,1,1,0.3,0.3,60));
-        }
-    }
-}else if(!self.isGoingToDown &amp;&amp; self.isGoingToUp) {
-    self.isGoingToUp = true;
-    
-    if(image_xscale &lt; 0.7){
-        script_execute(scale_ease(self,image_xscale,image_yscale,1.7,1,30));
-    }
-    if(image_xscale &gt;= 0.7 &amp;&amp; image_xscale &lt; 1.0){
-        
-        if(image_xscale &gt;= 0.95){
-            self.isGoingToUp = false;
-            depth = -21
-        }else{
-            script_execute(scale_ease(self,image_xscale,image_yscale,1.0,1.0,15));
-        }
-    }
-}
-
-/*
-if (self.isGoingToUp) {
-    else{
-        self.isGoingToUp = false;
-    }
-}*/
-</string>
+            <kind>9</kind>
+            <script>spt_Flyby</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -265,12 +248,7 @@ x = x - 5
             <string>//Controle de animação para o voo rasante do pombo
 if (!self.isGoingToDown) {
     self.isGoingToDown = true
-   // self.isGoingToUp = false
     depth += 1
-}else{
-    //self.isGoingToUp = true
-    //self.isGoingToDown = false
-    //depth -= 1
 }
 
 </string>

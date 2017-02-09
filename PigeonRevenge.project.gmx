@@ -35,6 +35,9 @@
     <scripts name="Util">
       <script>scripts\scale_ease.gml</script>
     </scripts>
+    <scripts name="Pigeon">
+      <script>scripts\spt_Flyby.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Street</object>
