@@ -10,9 +10,9 @@ if instance_number(obj_Citizen) < 15 || instance_number(obj_Citizen2) < 15 {
     
     //escolhe qual lado horizontal será gerado
     if(horizontalSideToGenerate < 1){
-        horizontalGeneratePoint = random_range(75,90)
+        horizontalGeneratePoint = random_range(85,90)
     }else{
-        horizontalGeneratePoint = random_range(525,540)
+        horizontalGeneratePoint = random_range(550,552)
     }
     //escolhe qual lado vertical será gerado
     if(verticalSideToGenerate < 1){

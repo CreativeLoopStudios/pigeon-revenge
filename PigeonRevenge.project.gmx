@@ -34,6 +34,9 @@
     </scripts>
     <scripts name="Util">
       <script>scripts\scale_ease.gml</script>
+      <script>scripts\draw_shadow.gml</script>
+      <script>scripts\scroll_screen.gml</script>
+      <script>scripts\recreate_instance.gml</script>
     </scripts>
     <scripts name="Pigeon">
       <script>scripts\spt_Flyby.gml</script>
