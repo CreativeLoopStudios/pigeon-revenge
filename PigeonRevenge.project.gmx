@@ -23,19 +23,17 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Citizen">
-      <script>scripts\sct_Citizen_Moviment.gml</script>
-      <script>scripts\sct_Citizen_CreateState.gml</script>
-      <script>scripts\sct_Citizen_CreateInstance.gml</script>
+      <script>scripts\scr_Citizen_CreateState.gml</script>
+      <script>scripts\scr_Citizen_CreateInstance.gml</script>
     </scripts>
     <scripts name="Car">
-      <script>scripts\spt_Car_Moviment.gml</script>
-      <script>scripts\spt_Car_CreateState.gml</script>
-      <script>scripts\sct_Car_CreateInstance.gml</script>
+      <script>scripts\scr_Car_CreateState.gml</script>
+      <script>scripts\scr_Car_CreateInstance.gml</script>
     </scripts>
     <scripts name="Util">
       <script>scripts\scale_ease.gml</script>
       <script>scripts\draw_shadow.gml</script>
-      <script>scripts\scroll_screen.gml</script>
+      <script>scripts\scr_Destroy_Instance_When_Scrolled.gml</script>
       <script>scripts\recreate_instance.gml</script>
     </scripts>
     <scripts name="Pigeon">
