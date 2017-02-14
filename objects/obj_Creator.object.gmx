@@ -51,7 +51,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>sct_Citizen_CreateInstance</script>
+            <script>scr_Citizen_CreateInstance</script>
           </argument>
           <argument>
             <kind>0</kind>
@@ -91,7 +91,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>sct_Car_CreateInstance</script>
+            <script>scr_Car_CreateInstance</script>
           </argument>
           <argument>
             <kind>0</kind>
