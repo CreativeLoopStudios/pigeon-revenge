@@ -63,15 +63,15 @@ image_speed = 0.5
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_Destroy_Instance_When_Scrolled</script>
+            <script>scroll_screen</script>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>90</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-90</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
