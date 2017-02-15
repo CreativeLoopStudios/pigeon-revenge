@@ -34,6 +34,7 @@
       <script>scripts\scale_ease.gml</script>
       <script>scripts\draw_shadow.gml</script>
       <script>scripts\scr_Destroy_Instance_When_Scrolled.gml</script>
+      <script>scripts\scroll_screen.gml</script>
       <script>scripts\recreate_instance.gml</script>
     </scripts>
     <scripts name="Pigeon">
