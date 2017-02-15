@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>spt_Car_CreateState</script>
+            <script>scr_Car_CreateState</script>
           </argument>
           <argument>
             <kind>0</kind>
@@ -91,7 +91,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>spt_Car_Moviment</script>
+            <script>scr_Car_CreateInstance</script>
           </argument>
           <argument>
             <kind>0</kind>
