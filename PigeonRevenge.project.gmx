@@ -35,7 +35,7 @@
       <script>scripts\scr_Destroy_Instance_When_Scrolled.gml</script>
       <script>scripts\draw_shadow.gml</script>
       <script>scripts\recreate_instance.gml</script>
-      <script>scripts\scroll_screen.gml</script>
+      <script>scripts\array.gml</script>
     </scripts>
     <scripts name="Pigeon">
       <script>scripts\spt_Flyby.gml</script>
@@ -72,7 +72,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\renna\AppData\Local\GameMaker-Studio\tutorials\Scrolling_Shooter_Part1\</TutorialName>
     <TutorialPage>6</TutorialPage>
   </TutorialState>

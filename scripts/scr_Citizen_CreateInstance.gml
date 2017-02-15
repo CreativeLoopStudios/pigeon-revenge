@@ -1,9 +1,15 @@
-var horizontalSideToGenerate = random_range(0,2)
-var verticalSideToGenerate = random_range(0,2)
-var choiceObject = random_range(0,2)
+var horizontalSideToGenerate = irandom_range(0,2)
+var verticalSideToGenerate = irandom_range(0,2)
+var choiceObject = irandom_range(0,2)
 var angleInstance = 0;
+var spriteToGenerate = irandom_range(0,1)
 
-if instance_number(obj_Citizen) < 15 || instance_number(obj_Citizen2) < 15 {
+var arrayOfSprites = array(spr_Citizen,spr_Citizen2)
+
+if instance_number(obj_Citizen) < 30 {
+
+    //escolhe qual sprite será gerada
+    sprite_index = arrayOfSprites[spriteToGenerate]
 
     var horizontalGeneratePoint = 0;
     var verticalGeneratePoint = 0;
@@ -22,14 +28,8 @@ if instance_number(obj_Citizen) < 15 || instance_number(obj_Citizen2) < 15 {
         verticalGeneratePoint = room_height + 30
         angleInstance = -180
     }
-    var object;
-    if(choiceObject < 1){
-        object = obj_Citizen;
-    }else{
-        object = obj_Citizen2;
-    }
     
-    with(instance_create(horizontalGeneratePoint, verticalGeneratePoint, object)){
+    with(instance_create(horizontalGeneratePoint, verticalGeneratePoint, obj_Citizen)){
     //Definindo movimentação do cidadão criado
         //movimentos dos cidadãos durante a descida da tela
         if(verticalSideToGenerate < 1){
