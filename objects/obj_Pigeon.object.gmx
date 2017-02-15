@@ -298,19 +298,19 @@ if (!self.isGoingToDown) {
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>x+45</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>y-42</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>0.3</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>0.3</string>
           </argument>
           <argument>
             <kind>0</kind>
