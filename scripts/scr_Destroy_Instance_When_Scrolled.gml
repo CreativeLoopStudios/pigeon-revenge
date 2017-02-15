@@ -6,6 +6,6 @@ var heightToDestroyAtFooter = argument1
 if(y > room_height + heightToDestroyAtHeader){
     instance_destroy();
 }
-if(y < -heightToDestroyAtFooter){
+if(y < heightToDestroyAtFooter){
     instance_destroy();
 }
