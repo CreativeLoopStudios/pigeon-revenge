@@ -124,11 +124,11 @@ inst = instance_create(x, y, obj_Explosion);
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>image_xscale</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>image_yscale</string>
           </argument>
           <argument>
             <kind>0</kind>
