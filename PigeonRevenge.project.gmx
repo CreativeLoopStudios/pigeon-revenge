@@ -23,11 +23,9 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Citizen">
-      <script>scripts\scr_Citizen_CreateState.gml</script>
       <script>scripts\scr_Citizen_CreateInstance.gml</script>
     </scripts>
     <scripts name="Car">
-      <script>scripts\scr_Car_CreateState.gml</script>
       <script>scripts\scr_Car_CreateInstance.gml</script>
     </scripts>
     <scripts name="Util">
@@ -36,6 +34,7 @@
       <script>scripts\draw_shadow.gml</script>
       <script>scripts\recreate_instance.gml</script>
       <script>scripts\array.gml</script>
+      <script>scripts\set_SpeedMovimentObjectInRoom.gml</script>
     </scripts>
     <scripts name="Pigeon">
       <script>scripts\spt_Flyby.gml</script>
@@ -54,7 +53,6 @@
         <object>objects\obj_Builder</object>
       </objects>
       <objects name="EarnPoints">
-        <object>objects\obj_Citizen2</object>
         <object>objects\obj_Car1</object>
         <object>objects\obj_Citizen</object>
       </objects>
