@@ -25,15 +25,15 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_Car_CreateState</script>
+            <script>set_SpeedMovimentObjectInRoom</script>
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>4</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>0.8</string>
           </argument>
           <argument>
             <kind>0</kind>

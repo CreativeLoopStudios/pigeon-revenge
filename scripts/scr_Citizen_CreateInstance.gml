@@ -29,6 +29,7 @@ if instance_number(obj_Citizen) < 30 {
         angleInstance = -180
     }
     
+    
     with(instance_create(horizontalGeneratePoint, verticalGeneratePoint, obj_Citizen)){
     //Definindo movimentação do cidadão criado
         //movimentos dos cidadãos durante a descida da tela

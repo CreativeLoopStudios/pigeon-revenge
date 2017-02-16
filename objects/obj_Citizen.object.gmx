@@ -25,15 +25,15 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_Citizen_CreateState</script>
+            <script>set_SpeedMovimentObjectInRoom</script>
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>4</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>0.5</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -107,7 +107,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>60</string>
           </argument>
           <argument>
             <kind>4</kind>
