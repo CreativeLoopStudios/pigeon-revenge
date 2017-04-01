@@ -70,7 +70,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\renna\AppData\Local\GameMaker-Studio\tutorials\Scrolling_Shooter_Part1\</TutorialName>
     <TutorialPage>6</TutorialPage>
   </TutorialState>

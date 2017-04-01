@@ -9,16 +9,16 @@ var arrayOfSprites = array(spr_Citizen,spr_Citizen2)
 if instance_number(obj_Citizen) < 30 {
 
     //escolhe qual sprite será gerada
-    sprite_index = arrayOfSprites[spriteToGenerate]
+    sprite_index = arrayOfSprites[spriteToGenerate];
 
     var horizontalGeneratePoint = 0;
     var verticalGeneratePoint = 0;
     
     //escolhe qual lado horizontal será gerado
     if(horizontalSideToGenerate < 1){
-        horizontalGeneratePoint = random_range(75,90)
+        horizontalGeneratePoint = irandom_range(64,90)
     }else{
-        horizontalGeneratePoint = random_range(525,540)
+        horizontalGeneratePoint = irandom_range(544,545)
     }
     //escolhe qual lado vertical será gerado
     if(verticalSideToGenerate < 1){
